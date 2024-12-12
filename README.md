@@ -1,5 +1,7 @@
 # Eyevinn OSC Typescript SDK examples
 
+This repository contains examples of how you can use the Eyevinn Open Source Cloud SDK for Typescript to build solutions based on open web services.
+
 ## Installation
 
 ```
