@@ -10,10 +10,12 @@
   "license": "MIT",
   "dependencies": {
     "@osaas/client-core": "^0.15.0",
+    "@osaas/client-services": "^0.3.0",
     "@osaas/client-transcode": "^0.13.1",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   }
 }

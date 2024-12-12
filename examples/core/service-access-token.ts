@@ -1,6 +1,6 @@
 // Generate a service access token for test-adserver service
 
-import { Context } from "@osaas/client-core";
+import { Context } from '@osaas/client-core';
 
 async function main() {
   const ctx = new Context();
