@@ -1,0 +1,19 @@
+{
+  "name": "osc-client-ts-examples",
+  "version": "0.1.0",
+  "description": "Eyevinn OSC SDK examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eyevinn Open Source Cloud <osc@eyevinn.se>",
+  "license": "MIT",
+  "dependencies": {
+    "@osaas/client-core": "^0.15.0",
+    "@osaas/client-transcode": "^0.13.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
