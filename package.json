@@ -4,18 +4,26 @@
   "description": "Eyevinn OSC SDK examples",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "pretty": "prettier --check --ignore-unknown ."
   },
   "author": "Eyevinn Open Source Cloud <osc@eyevinn.se>",
   "license": "MIT",
   "dependencies": {
     "@osaas/client-core": "^0.15.0",
-    "@osaas/client-services": "^0.3.0",
+    "@osaas/client-services": "^0.4.0",
     "@osaas/client-transcode": "^0.13.1",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "prettier": "^3.4.2",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
     "typescript": "^5.7.2"
   }
 }
