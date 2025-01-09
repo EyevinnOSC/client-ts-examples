@@ -11,9 +11,11 @@
   "author": "Eyevinn Open Source Cloud <osc@eyevinn.se>",
   "license": "MIT",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.723.0",
     "@osaas/client-core": "^0.15.0",
     "@osaas/client-services": "^0.4.0",
     "@osaas/client-transcode": "^0.13.1",
+    "minio": "^8.0.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
